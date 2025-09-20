@@ -1,0 +1,419 @@
+body {
+    background: #f3f4f6;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #15803d;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.nav-links li a:hover {
+    color: #1e211f;
+}
+
+.guide {
+    background: #d5cfcf;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 1100px;
+    height: 500px;
+    margin: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.ultimate {
+    background: #0f172a;
+    box-shadow: 0 5px 7px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 1350px;
+    height: 600px;
+    margin: 20px;
+    text-align: center;
+    padding: 1.5px;
+    margin-left: 50px;
+
+}
+
+h1 {
+    font-size: 5em;
+    color: #1b1a1a;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 1.5em;
+    color: #393636;
+}
+
+.can {
+    padding-top: 40px;
+    color: #0b101c;
+    margin: 30px;
+    font-size: 4em;
+}
+
+.c {
+    padding-top: 10px;
+    color: #0b101c;
+    margin: 10px;   
+}
+
+.canwasd {
+    padding-top: 40px;
+    color: #0b101c;
+    margin: 30px;
+    font-size: 4em;
+}
+
+.money {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.canada-title {
+    font-size: 2em;
+    color: #147a34;
+    text-align: center;
+    margin: 50px;
+}
+
+.canada-p {
+    max-width: 1100px;
+    margin: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
+    color: #433838;
+    font-size: 1.2em;
+    margin-left: 250px;
+    margin-right: 240px;
+}
+
+.about-canada {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.province img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.ontario {
+    text-align: left;
+    margin-left: 30px;
+    margin-left: 20px;
+}
+
+.toronto {
+    font-size: 1em;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.buffet {
+    margin: 25px;
+}
+
+.province {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 460px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 30px;
+    margin-left: 80px;
+}
+
+.province:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.cans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    height: 190px;
+    width: 300px;
+    border-radius: 20px;
+    background: #86d3fa;
+    color: #061b82;
+    margin: 20px;
+}
+
+.ca {
+    font-size: 2em;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: #061b82;
+}
+
+.alberta {
+    font-size: 2.5em;
+    color: #147a34;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.albertas img {
+    width: 500px;
+    height: 550px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.alberta-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.alberta-text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.sask {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: #433838;
+    font-size: 0.85em;
+}
+
+.sask:hover {
+    color: #147a34;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.wasdw {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.2em;
+    color: #433838;
+}
+
+.banffs img {
+    width: 400px;
+    height: 470px;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.banffs {
+    margin: 30px;
+    width: 1300px;
+    height: 750px;
+    background: #aa9f9f;
+    border-radius: 25px;
+    margin-left: 60px;
+}
+
+.banffs:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+.banffw {
+    color: #000;
+    font-size: 1.4em;
+    margin: 30px;
+}
+
+.food {
+    background: #dad2d2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 1250px;
+    height: 380px;
+    margin: 20px;
+    text-align: center;
+    padding: 1.5px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.poutine img {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 15px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.text p {
+    font-size: 1.1em;
+    color: #000000;
+    margin: 20px;
+    text-align: left;
+}
+
+.food:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+.foods {
+    background: #645757;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 1250px;
+    height: 360px;
+    margin: 20px;
+    text-align: center;
+    padding: 1.5px;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.foods:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+
+
+.transportation {
+    width: 1370px;
+    height: 520px;
+    margin: 15px;
+    background: #575757;
+    border-radius: 15px;
+    display: flex;
+}
+
+.transpo {
+    margin: 30px;
+    margin-right: 50px;
+}
+
+
+.transportation img {
+    width: 400px;
+    height: 270px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+.imagess img {
+    width: 300px;
+    height: 190px;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+
+.text {
+    margin: 10px;
+    color: #ffffff;
+}
+
+
+.transportation-p {
+    font-size: 1em;
+    margin: 20px;
+    text-align: left;
+}
+
+.trasport {
+    font-size: 1.1em;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.skibidi {
+    text-align: center;
+    font-size: 50px;
+    color: #000;
+    margin-top: 20px;
+    background: #857373;
+    width: 600px;
+    height: 80px;
+    border-radius: 15px;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+
+.wasdwasdwasd {
+    margin: 20px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.transportation :hover {
+    transform: scale(1.02);
+    transition: transform 0.3s;
+}
+
+.guide img {
+    width: 150px;
+    height: 90px;
+    margin-left: 50px;
+    margin-right: 70px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.lalala {
+    font-size: 1.1em;
+    color: #4b5563;
+    margin: 350px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.lala {
+    font-size: 1.1em;
+    color: #4b5563;
+    margin: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
