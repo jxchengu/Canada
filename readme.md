@@ -1,43 +1,85 @@
+// ...existing code...
 # Canada Guide — Static Website
 
-A simple static website that documents Canadian provinces, landmarks, foods, and travel information.
+A simple static website documenting Canadian provinces, landmarks, foods, and travel information.
 
 ## Preview
-Open the site locally by opening [index.html](index.html) in your browser.
+Open the site locally by opening index.html in a browser.
 
 ## Key files
-- [index.html](index.html) — Home page
-- [landmark.html](landmark.html) — Provinces & territories index
-- [place.html](place.html) — Attractions / landmarks
-- [food.html](food.html) — Canadian foods
-- [snack.html](snack.html) — Snacks & treats
-- [about.html](about.html) — Travel info, transportation, etiquette
-- [styles.css](styles.css) — Global styles (contains `.navbar`, `.province`, `.about-canada`, etc.)
+- index.html — Home page
+- landmark.html — Provinces & territories index
+- place.html — Attractions / landmarks
+- food.html — Canadian foods
+- snack.html — Snacks & treats
+- about.html — Travel info
+- styles.css — Global styles
 
 ## Project structure (excerpt)
-- c:\Users\kai_k\Canada\index.html
-- c:\Users\kai_k\Canada\landmark.html
-- c:\Users\kai_k\Canada\place.html
-- c:\Users\kai_k\Canada\food.html
-- c:\Users\kai_k\Canada\snack.html
-- c:\Users\kai_k\Canada\about.html
-- c:\Users\kai_k\Canada\styles.css
-- assets/images/... (various image files referenced by pages)
+- index.html
+- landmark.html
+- place.html
+- food.html
+- snack.html
+- about.html
+- styles.css
+- images/ (referenced image files)
 
 ## How to run
-1. Ensure all files are in the same folder (images referenced with relative paths).
-2. Open [index.html](index.html) in any modern browser.
+1. Put all files (HTML, CSS, images) in the same project folder.
+2. Open index.html in any modern browser.
 
 ## Editing tips
-- Update layout and colors in [styles.css](styles.css). Common classes:
-  - [` .navbar `](styles.css)
-  - [` .province `](styles.css)
-  - [` .about-canada `](styles.css)
-- Add or edit pages by creating new `.html` files and linking them from the navigation in the top `<nav>`.
+- Change global styles in styles.css (e.g., .navbar, .province, .about-canada).
+- Keep image paths relative so pages remain portable.
+- Use semantic HTML and optimize images for web.
 
 ## Contributing
-- Keep markup semantic and images optimized.
-- Use relative paths for images so pages stay portable.
+- Submit changes as pull requests or provide patches.
+- Keep content accurate and sources cited when required.
 
 ## License
-Add a license file if you plan to publish this project.
+Add a license file if the project will be published.
+```// filepath: c:\Users\kai_k\Canada\README.md
+// ...existing code...
+# Canada Guide — Static Website
+
+A simple static website documenting Canadian provinces, landmarks, foods, and travel information.
+
+## Preview
+Open the site locally by opening index.html in a browser.
+
+## Key files
+- index.html — Home page
+- landmark.html — Provinces & territories index
+- place.html — Attractions / landmarks
+- food.html — Canadian foods
+- snack.html — Snacks & treats
+- about.html — Travel info
+- styles.css — Global styles
+
+## Project structure (excerpt)
+- index.html
+- landmark.html
+- place.html
+- food.html
+- snack.html
+- about.html
+- styles.css
+- images/ (referenced image files)
+
+## How to run
+1. Put all files (HTML, CSS, images) in the same project folder.
+2. Open index.html in any modern browser.
+
+## Editing tips
+- Change global styles in styles.css (e.g., .navbar, .province, .about-canada).
+- Keep image paths relative so pages remain portable.
+- Use semantic HTML and optimize images for web.
+
+## Contributing
+- Submit changes as pull requests or provide patches.
+- Keep content accurate and sources cited when required.
+
+## License
+Add a license file if the project will be published.
